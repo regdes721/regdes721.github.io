@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="content">
+      <h1>Apple</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href=#>Store</a></li>
+          <li><a href=#>Mac</a></li>
+          <li><a href=#>iPad</a></li>
+          <li><a href=#>iPhone</a></li>
+          <li><a href=#>Watch</a></li>
+          <li><a href=#>Vision</a></li>
+          <li><a href=#>AirPods</a></li>
+          <li><a href=#>TV & Home</a></li>
+          <li><a href=#>Entertainment</a></li>
+          <li><a href=#>Accessories</a></li>
+          <li><a href=#>Support</a></li>
+          <li><a href=#>Search</a></li>
+          <li><a href=#>Bag</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="main-content">
+      <p>Millions of people across more than 50 countries make our products possible. Respect for people and the planet we all share is our top priority. At Apple, we’re always learning and raising the bar. When challenges arise, we work tirelessly to create lasting change.</p>
+      <div class="main-content figure">
+        <figure>
+          <a href="#"><img class="column" src="macbook-air.png" alt="Macbook Air"></a>
+          <figcaption>Macbook Air</figcaption>
+        </figure>
+        <figure>
+          <a href="#"><img class="column" src="iphone-14.jpg" alt="iPhone 14"></a>
+          <figcaption>iPhone 14</figcaption>
+        </figure>
+        <figure>
+          <a href="#"><img class="column" src="apple-vision-pro.png" alt="Apple Vision Pro"></a>
+          <figcaption>Apple Vision Pro</figcaption>
+        </figure>
+        <figure>
+          <a href="#"><img class="column" src="apple-watch.jpg" alt="Apple Watch"></a>
+          <figcaption>Apple Watch</figcaption>
+        </figure>
+        <figure>
+          <a href="#"><img class="column" src="ipad-pro.jpg" alt="iPad Pro"></a>
+          <figcaption>iPad Pro</figcaption>
+        </figure>
+        <figure>
+          <a href="#"><img class="column" src="apple-card.png" alt="Apple Card"></a>
+          <figcaption>Apple Card</figcaption>
+        </figure>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Copyright © 2023 Apple Inc. All rights reserved.</p>
+  </footer>
+</body>
+</html>
