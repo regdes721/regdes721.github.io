@@ -7534,6 +7534,12 @@ textarea.form-control-lg {
 .mx-2 {
   margin-right: 0.5rem !important;
   margin-left: 0.5rem !important;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.mx-2-links {
+  margin-bottom: 20px;
 }
 
 .mx-3 {
@@ -10980,6 +10986,10 @@ html {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+}
+
+.masthead-avatar {
+  border-radius: 50%;
 }
 
 @media (min-width: 992px) {
