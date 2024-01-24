@@ -199,7 +199,7 @@
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
-                        <form id="contactForm" action="https://formsubmit.co/your@email.com" method="POST">
+                        <form id="contactForm" action="https://formsubmit.co/" method="POST">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." required />
@@ -247,6 +247,20 @@
                         </form>
                     </div>
                 </div>
+                <script>
+                    document.getElementById('contactForm').addEventListener('submit', function (event) {
+                        event.preventDefault(); // Prevent the form from submitting normally
+
+                        // Get the email address entered by the user
+                        var userEmail = document.getElementById('email').value;
+
+                        // Update the form action with the user's email address
+                        document.getElementById('contactForm').action = 'https://formsubmit.co/' + userEmail;
+
+                        // Now submit the form
+                        this.submit();
+                    });
+                </script>
             </div>
         </section>
         <!-- Footer-->
